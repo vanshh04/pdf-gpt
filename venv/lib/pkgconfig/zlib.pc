@@ -1,0 +1,13 @@
+prefix=/Users/vanshsharma/PycharmProjects/pdf/venv
+exec_prefix=/Users/vanshsharma/PycharmProjects/pdf/venv
+libdir=/Users/vanshsharma/PycharmProjects/pdf/venv/lib
+sharedlibdir=/Users/vanshsharma/PycharmProjects/pdf/venv/lib
+includedir=/Users/vanshsharma/PycharmProjects/pdf/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
